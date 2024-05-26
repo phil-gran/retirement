@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retirement Campaign</title>
+  <link rel="shortcut icon" href="/Images/Logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+  <meta name="author" content="Phil Grana">
+  <style>
+
+  </style>
+</head>
+<body>
+
+  <div id="nav" class="nav navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container">
+                <img class="rounded-circle" height="50em" width="50em" src="/Images/retire.PNG" alt="St Azrael Logo">
+                <a href="#home" class="navbar-brand mx-3 fs-3 text-white">Retirement Campaign</a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#home" class="nav-link link-light">HOME</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link link-light">SERVICES</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link link-light">ABOUT</a></li>
+                    <li class="nav-item"><a href="https://www.facebook.com/profile.php?id=61555142493806" target="_blank" id="fbicon" class="nav-link link-light">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+  </div>
+
+
+  <!--  Float  -->
+  <section id="home" class="text-center text-sm-start">
+    <div class="container">
+  
+      <div class="p-2 rounded-4">
+        <center>
+          <h3>BP Script (Colleges)</h3>
+          <h5>Virtual Appointment</h5>
+        </center>
+      </div>
+
+      <div class="bg-light p-4">
+        <h4>SCRIPT</h4>
+        <br>
+        <h5>OPENING SPIEL</h5>
+        <p>Hi is this (their first name)?</p>
+
+        <p>My name is (your name) with the Employee Retirement Advisors. We provide the <span class="fw-bold">(College) </span> employees their <span class="fw-bold">Yearly Retirement Report</span>. Normally we meet you at <span class="fw-bold">(Campus)</span> to give you this in person, but this year we are providing it to you with a phone call.</p>
+
+        <p>We have availability (Day) or (Day) from 8am to 8pm. What is the <span class="fw-bold">Best Day and Time</span> to give you your report, it <span class="fw-bold">only takes 10 minutes?</span></p>
+
+        <p>Just a couple of questions in order to prepare your report:</p>
+        <ol>
+          <li>How long have you been working at (College)?</li>
+          <li>Because this is the comprehensive report towards your retirement, OUTSIDE of (College Name) do you currently have a 403b, 457, 401k, IRA or Roth plans? </li>
+          <li>How long have you had (whatever plan they said)?</li>
+          <li>Would you happen to know the approximate value?</li>
+          <li>What company is that with? </li>
+          <li>Looking at all the funds outside (college name) and Social Security, would you say you have <25k, 25k to 50k, 50k to 100k or 100k+ saved towards your upcoming retirement? (IF THEY ARE UNSURE) If you had to guess, would you guess less than <25k, 25k to 50k, 50k to 100k or 100k+ or more?) “(If less than 25k release) If over 25k, but have no plans. Ask is that in Stocks/Bonds/Savings? </li>
+          <li>Do you normally work with an advisor?</li>
+          <li>(If adviser) When is the last time they saw you?</li>
+        </ol>
+
+        <section id="question" class="p-5">
+          <div class="container text-center mb-4">
+              <div class="accordion accordion-flush">
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#questionOne">
+                            If Under 25K
+                          </button>
+                      </h2>
+                      <div id="questionOne" class="accordion-collapse collapse">
+                          <div class="accordion-body">Thank you for that information (Mr. or Mrs.) __________the reports and programs that this report covers are specific to people that have accumulated at least 25k in retirement outside of your normal College contributions. Therefore, this report would not have any information for you at this time. Thank you for your time and have a Great Day. </div>
+                  </div>
+              </div>
+  
+              <div class="accordion accordion-flush">
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#questionTwo">
+                               Voicemail
+                          </button>
+                      </h2>
+                      <div id="questionTwo" class="accordion-collapse collapse">
+                          <div class="accordion-body">Hello__ this is (Name) calling in regards to your Yearly Comprehensive Retirement Report. Please give me a call back at (number). Thank You.</div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <h5>CLOSING</h5>
+      <p>Our Licensed Public Retirement Specialist will call you briefly on (Day) and (Time) so they can finalize your report. Please make sure and answer your phone as this is a Detailed Report and we include all your information so you know exactly what you can expect when you Retire. Thank You for your Time and we will speak with you on (Day at Time). Have a Great Day!!</p>
+
+
+      <h5>TEMPLATE</h5>
+      <ul>
+        <li>Name:</li>
+        <li>Phone:</li>
+        <li>Appointment Date:</li>
+        <li>School Name:</li>
+        <li>How Long with School:</li>
+        <li>Supplemental:</li>
+        <li>How Long:</li>
+        <li>Value:</li>
+        <li>Company:</li>
+        <li>25K to 50K:</li>
+        <li>50k to 100k:</li>
+        <li>100k+:</li>
+        <li>Advisor:</li>
+        <li>Comments:</li>
+      </ul>
+
+      <h5>Biref Info</h5>
+      <p>License with the State<br>
+      Approve by the County<br>
+      Not with FRS (Florida Retirement System)<br>
+      Not with the School<br>
+      Not with the County<br>
+      We are a 3rd Party Provider !!</p>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

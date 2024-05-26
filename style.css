@@ -1,0 +1,66 @@
+body::before {
+ display: block;
+ content: '';
+ height: 100px;
+}
+
+#map{
+ width: auto;
+ height: 250;
+}
+
+
+/* Set the video to cover the entire viewport */
+video {
+ position: fixed;
+ top: 0;
+ left: 0;
+ min-width: 100%;
+ min-height: 100%;
+ z-index: -1; /* Ensure the video stays behind other content */
+ object-fit: cover; /* Scale the video to cover the entire area */
+ }
+
+ /* Style for the content */
+ .content {
+ position: relative;
+ z-index: 1; /* Ensure the content appears on top of the video */
+ color: white;
+ text-align: center;
+ padding: 100px 0; /* Add padding to center the content vertically */
+ }
+
+#star {
+ color: rgb(255, 255, 87);
+ font-weight: bold;
+}
+
+#carouselimg{
+ width: auto;
+ height: 500px;
+ border: 2px solid yellow ;
+}
+
+#peopleimg{
+ width: 200px;
+ height: 200px;
+}
+
+@media (max-width: 767.98px) {
+ /* Add styles specific to mobile view here */
+
+ /* For example, adjust the height of the ::before pseudo-element */
+ body::before {
+     display: block;
+     content: '';
+     height: 120px; /* Adjust height for mobile view */
+ }
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 767.98px) {
+ .news-input {
+     width: 100%; /* Adjust width for smaller screens */
+ }
+}
+ 
